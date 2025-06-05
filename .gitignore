@@ -7,6 +7,7 @@
 .pub/
 build/
 *.iml
+pubspec.lock
 
 # Android
 **/android/**/gradle-wrapper.jar
@@ -41,6 +42,23 @@ build/
 # IDE
 .idea/
 .vscode/
+*.iml
+*.xcworkspace/
+*.xcodeproj/xcuserdata/
+ios/Pods/
+android/.gradle/
+
+
+# Firebase configuration
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+ios/firebase_app_id_file.json
+
+# Local Configuration
+ios/Configuration.storekit
 
 # Environment variables
 .env
+*.env.*
