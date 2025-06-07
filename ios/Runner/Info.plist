@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<string>com.example.flutterChatApp.123</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -45,5 +45,13 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera to let you take profile pictures.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need access to your photo library to let you choose profile pictures.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need access to your location to let you choose profile pictures.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone to let you record audio messages.</string>
 </dict>
 </plist>
